@@ -19,7 +19,7 @@ jobs:
         password: ${{ secrets.DOCKER_PASSWORD }}
 
     - name: Build image
-      run: docker build -t maximkhokhol/cicd-lab-app .
+      run: docker build -t maximkhokhol/lab45 .
 
     - name: Push image
-      run: docker push maximkhokhol/cicd-lab-app
+      run: docker push maximkhokhol/lab45
